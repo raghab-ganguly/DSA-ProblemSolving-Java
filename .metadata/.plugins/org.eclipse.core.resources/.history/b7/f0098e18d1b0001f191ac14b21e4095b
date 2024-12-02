@@ -1,0 +1,16 @@
+package com.raghab;
+
+public class Test {
+
+	public static void main(String[] args) {
+		//System.out.println("*\n**\n***\n****\n*****");
+		int x=10;
+		int y=5;
+		int exp1=10*5/10+5; //10
+		int exp2=(10*5)/(10+5);//3
+		System.out.println(exp1);
+		System.out.println(exp2);
+		
+	}
+
+}

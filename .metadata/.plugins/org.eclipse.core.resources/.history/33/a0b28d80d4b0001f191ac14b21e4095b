@@ -1,0 +1,44 @@
+package com.raghab;
+import java.util.Scanner;
+public class Test {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		
+		//System.out.println("*\n**\n***\n****\n*****");
+//		
+//		int x=10;
+//		int y=5;
+//		int exp1=10*5/10+5; //10
+//		int exp2=(10*5)/(10+5);//3
+//		System.out.println(exp1);
+//		System.out.println(exp2);
+		
+		
+//		System.out.println("Enter your Marks: ");
+//		
+//		int marks=sc.nextInt();
+//		if(marks>90) {
+//			System.out.println("O");
+//		}else if(marks > 80) {
+//			System.out.println("E");
+//		}else if(marks>70) {
+//			System.out.println("G");
+//		}else if(marks > 60) {
+//			System.out.println("A");
+//		}else if(marks > 50) {
+//			System.out.println("B");
+//		}else if(marks >= 40) {
+//			System.out.println("C");
+//		}else {
+//			System.out.println("F");
+//		}
+		
+		System.out.print("Enter Integer Age and Name: ");
+		int age=sc.nextInt();
+		String name=sc.nextLine();
+		System.out.println(age+" "+name);
+		
+	}
+
+}
